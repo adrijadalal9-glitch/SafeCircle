@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SafeCircle — Safety, Reimagined</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body id="home">
+
+    <!-- =====================================================
+         NAVBAR
+    ====================================================== -->
+
+    <<header class="navbar">
+
+    <div class="nav-container">
+
+        <a href="#home" class="brand">
+
+            <img
+                src="{{ url_for('static', filename='images/Crimson Orbital Ribbon Emblem.png') }}"
+                alt="SafeCircle logo"
+                class="brand-logo"
+            >
+
+            <span class="brand-name">
+                Safe<span>Circle</span>
+            </span>
+
+        </a>
+
+        <nav class="nav-links">
+
+            <a href="#home">Home</a>
+            <a href="#dashboard">Dashboard</a>
+            <a href="#community">Community</a>
+            <a href="#cyber-safety">Cyber Safety</a>
+            <a href="#resources">Resources</a>
+
+        </nav>
+
+        <button class="nav-sos">
+            SOS
+        </button>
+
+    </div>
+
+</header>
+<!-- =================================================
+     HOME / HERO
+================================================== -->
+
+<section class="hero-section" id="home">
+
+    <div class="hero-container">
+
+        <div class="hero-content">
+
+            <span class="eyebrow">
+                YOUR SAFETY. YOUR CIRCLE.
+            </span>
+
+            <h1>
+                Safety.<br>
+                <span>Reimagined.</span>
+            </h1>
+
+            <p>
+                A unified digital safety platform designed
+                to help you respond to emergencies,
+                connect with your community, and stay
+                safer online.
+            </p>
+
+            <div class="hero-actions">
+
+                <button class="primary-button">
+                    Get Started →
+                </button>
+
+                <a
+                    href="#dashboard"
+                    class="secondary-button"
+                >
+                    Explore Dashboard
+                </a>
+
+            </div>
+
+            <div class="hero-tags">
+
+                <span>● Privacy focused</span>
+                <span>● Community powered</span>
+                <span>● Cyber aware</span>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-sos-card">
+
+            <div class="sos-card-top">
+
+                <span>
+                    EMERGENCY ASSISTANCE
+                </span>
+
+                <small>
+                    READY
+                </small>
+
+            </div>
+
+            <button class="sos-button">
+
+                <strong>SOS</strong>
+
+                <span>GET HELP</span>
+
+            </button>
+
+            <p>
+                Start the SafeCircle emergency
+                assistance process.
+            </p>
+
+            <small>
+                PROTOTYPE MODE
+            </small>
+
+        </div>
+
+    </div>
+
+</section>
+
+        <!-- =================================================
+             DASHBOARD
+        ================================================== -->
+
+        <section
+            class="dashboard-section"
+            id="dashboard"
+        >
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <span class="dashboard-label">
+                        SAFECIRCLE DASHBOARD
+                    </span>
+
+                    <h2>
+                        Your safety,
+                        <span>at a glance.</span>
+                    </h2>
+
+                    <p>
+                        Access the tools you need when
+                        something goes wrong.
+                    </p>
+
+                </div>
+
+
+                <div class="dashboard-grid">
+
+                    <!-- Emergency -->
+
+                    <div class="dashboard-card">
+
+                        <span class="card-icon">
+                            🚨
+                        </span>
+
+                        <span class="card-label">
+                            EMERGENCY
+                        </span>
+
+                        <h3>
+                            Need immediate help?
+                        </h3>
+
+                        <p>
+                            Start a SafeCircle emergency
+                            assistance process.
+                        </p>
+
+                        <button
+                            id="quick-sos"
+                            class="dashboard-button"
+                        >
+                            Activate SOS →
+                        </button>
+
+                    </div>
+
+
+                    <!-- Community -->
+
+                    <div class="dashboard-card">
+
+                        <span class="card-icon">
+                            🤝
+                        </span>
+
+                        <span class="card-label">
+                            COMMUNITY
+                        </span>
+
+                        <h3>
+                            Help starts with us.
+                        </h3>
+
+                        <p>
+                            Request help or offer support
+                            to people around you.
+                        </p>
+
+                        <button
+                            id="quick-community"
+                            class="dashboard-button"
+                        >
+                            Open Community →
+                        </button>
+
+                    </div>
+
+
+                    <!-- Cyber -->
+
+                    <div class="dashboard-card">
+
+                        <span class="card-icon">
+                            🛡️
+                        </span>
+
+                        <span class="card-label">
+                            CYBER SAFETY
+                        </span>
+
+                        <h3>
+                            Stay safer online.
+                        </h3>
+
+                        <p>
+                            Get guidance for common
+                            digital safety situations.
+                        </p>
+
+                        <button
+                            id="quick-cyber"
+                            class="dashboard-button"
+                        >
+                            Cyber Safety →
+                        </button>
+
+                    </div>
+
+
+                    <!-- Privacy -->
+
+                    <div
+                        class="dashboard-card privacy-card"
+                        id="privacy-first"
+                    >
+
+                        <span class="card-icon">
+                            🔒
+                        </span>
+
+                        <span class="card-label">
+                            PRIVACY
+                        </span>
+
+                        <h3>
+                            Privacy First.
+                        </h3>
+
+                        <p>
+                            SafeCircle is designed to minimise
+                            unnecessary exposure of personal data.
+                        </p>
+
+                        <div class="privacy-tags">
+
+                            <span>
+                                Approx. location
+                            </span>
+
+                            <span>
+                                Secure by design
+                            </span>
+
+                        </div>
+
+                        <button
+                            id="privacy-button"
+                            class="dashboard-button"
+                        >
+                            Privacy Details →
+                        </button>
+
+                    </div>
+
+
+                    <!-- Trusted Support -->
+
+                    <div class="dashboard-card">
+
+                        <span class="card-icon">
+                            🫂
+                        </span>
+
+                        <span class="card-label">
+                            TRUSTED SUPPORT
+                        </span>
+
+                        <h3>
+                            You're not alone.
+                        </h3>
+
+                        <p>
+                            Connect with trusted people
+                            when you need support.
+                        </p>
+
+                        <button
+                            id="trusted-support"
+                            class="dashboard-button"
+                        >
+                            Trusted Support →
+                        </button>
+
+                    </div>
+
+
+                    <!-- Safety Circle -->
+
+                    <div class="dashboard-card">
+
+                        <span class="card-icon">
+                            🟢
+                        </span>
+
+                        <span class="card-label">
+                            SAFETY CIRCLE
+                        </span>
+
+                        <h3>
+                            Your people matter.
+                        </h3>
+
+                        <p>
+                            Build a trusted network of
+                            people who can support you.
+                        </p>
+
+                        <button
+                            id="safety-circle"
+                            class="dashboard-button"
+                        >
+                            Open Safety Circle →
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             SAFETY PILLARS
+        ================================================== -->
+
+        <section
+            class="pillars-section"
+            id="community"
+        >
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <span class="dashboard-label">
+                        THREE CORE PILLARS
+                    </span>
+
+                    <h2>
+                        Safety from
+                        <span>every angle.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="pillars-grid">
+
+                    <!-- Emergency -->
+
+                    <div class="pillar-card emergency">
+
+                        <span class="pillar-number">
+                            01
+                        </span>
+
+                        <span class="card-icon">
+                            🚨
+                        </span>
+
+                        <h3>
+                            Emergency
+                        </h3>
+
+                        <p>
+                            Quickly begin an emergency
+                            assistance process and record
+                            what kind of help is needed.
+                        </p>
+
+                        <a href="#" class="pillar-action sos-link">
+                            Start SOS →
+                        </a>
+
+                    </div>
+
+
+                    <!-- Community -->
+
+                    <div class="pillar-card community">
+
+                        <span class="pillar-number">
+                            02
+                        </span>
+
+                        <span class="card-icon">
+                            🤝
+                        </span>
+
+                        <h3>
+                            Community
+                        </h3>
+
+                        <p>
+                            Ask for help, offer support,
+                            and create stronger safety
+                            networks.
+                        </p>
+
+                        <a href="#" class="pillar-action">
+                            Explore Community →
+                        </a>
+
+                    </div>
+
+
+                    <!-- Cyber -->
+
+                    <div
+                        class="pillar-card cyber"
+                        id="cyber-safety"
+                    >
+
+                        <span class="pillar-number">
+                            03
+                        </span>
+
+                        <span class="card-icon">
+                            🔐
+                        </span>
+
+                        <h3>
+                            Cyber Safety
+                        </h3>
+
+                        <p>
+                            Learn how to respond to scams,
+                            suspicious links, hacked accounts,
+                            and online abuse.
+                        </p>
+
+                        <a href="#" class="pillar-action">
+                            Stay Safer Online →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             RESOURCES
+        ================================================== -->
+
+        <section
+            class="resources-section"
+            id="resources"
+        >
+
+            <div class="section-container">
+
+                <div class="section-heading">
+
+                    <span class="dashboard-label">
+                        SAFETY RESOURCES
+                    </span>
+
+                    <h2>
+                        Knowledge is
+                        <span>protection.</span>
+                    </h2>
+
+                    <p>
+                        Simple information that can help
+                        you make safer decisions.
+                    </p>
+
+                </div>
+
+
+                <div class="resources-grid">
+
+                    <button
+                        class="resource-card"
+                        id="resource-emergency"
+                    >
+
+                        <span>🚨</span>
+
+                        <strong>
+                            Emergency Preparedness
+                        </strong>
+
+                        <small>
+                            Know what to do before
+                            an emergency happens.
+                        </small>
+
+                    </button>
+
+
+                    <button
+                        class="resource-card"
+                        id="resource-cyber"
+                    >
+
+                        <span>🔐</span>
+
+                        <strong>
+                            Digital Security
+                        </strong>
+
+                        <small>
+                            Protect your accounts
+                            and personal information.
+                        </small>
+
+                    </button>
+
+
+                    <button
+                        class="resource-card"
+                        id="resource-community"
+                    >
+
+                        <span>🤝</span>
+
+                        <strong>
+                            Community Support
+                        </strong>
+
+                        <small>
+                            Know when and how to
+                            ask trusted people for help.
+                        </small>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             FINAL CTA
+        ================================================== -->
+
+        <section class="final-cta">
+
+            <div class="section-container">
+
+                <span class="dashboard-label">
+                    SAFECIRCLE
+                </span>
+
+                <h2>
+                    Safety should be
+                    <span>accessible.</span>
+                </h2>
+
+                <p>
+                    One platform. Three pillars.
+                    A safer tomorrow.
+                </p>
+
+                <button
+                    id="final-sos"
+                    class="primary-button"
+                >
+                    Activate SOS →
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer>
+
+        <div class="section-container">
+
+            <div class="footer-logo">
+                Safe<span>Circle</span>
+            </div>
+
+            <p>
+                Safety, Reimagined for a Safer Tomorrow.
+            </p>
+
+            <small>
+                AI-assisted prototype built with
+                HTML, CSS, JavaScript and Python.
+            </small>
+
+        </div>
+
+    </footer>
+
+
+    <script
+        src="{{ url_for('static', filename='js/app.js') }}">
+    </script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    function openSafeCirclePanel(title, label, content) {
+
+        const old = document.getElementById("extra-safety-panel");
+
+        if (old) {
+            old.remove();
+        }
+
+        const overlay = document.createElement("div");
+
+        overlay.id = "extra-safety-panel";
+
+        overlay.innerHTML = `
+            <div class="extra-panel-backdrop"></div>
+
+            <div class="extra-panel">
+
+                <button class="extra-panel-close">
+                    ×
+                </button>
+
+                <span class="extra-panel-label">
+                    ${label}
+                </span>
+
+                <h2>
+                    ${title}
+                </h2>
+
+                <div class="extra-panel-content">
+                    ${content}
+                </div>
+
+                <button class="extra-panel-done">
+                    Done
+                </button>
+
+            </div>
+        `;
+
+        document.body.appendChild(overlay);
+        document.body.style.overflow = "hidden";
+
+        function closePanel() {
+            overlay.remove();
+            document.body.style.overflow = "";
+        }
+
+        overlay.querySelector(".extra-panel-close")
+            .addEventListener("click", closePanel);
+
+        overlay.querySelector(".extra-panel-backdrop")
+            .addEventListener("click", closePanel);
+
+        overlay.querySelector(".extra-panel-done")
+            .addEventListener("click", closePanel);
+    }
+
+
+    /* =====================================================
+       PRIVACY FIRST
+    ===================================================== */
+
+    const privacyButton =
+        document.getElementById("privacy-button");
+
+    if (privacyButton) {
+
+        privacyButton.addEventListener("click", function () {
+
+            openSafeCirclePanel(
+                "Privacy First.",
+                "SAFECIRCLE PRIVACY",
+                `
+                    <div class="extra-info-card">
+                        <span>📍</span>
+                        <div>
+                            <strong>Approximate location</strong>
+                            <p>
+                                SafeCircle is designed to avoid
+                                exposing your exact location publicly.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="extra-info-card">
+                        <span>🔐</span>
+                        <div>
+                            <strong>Minimal data exposure</strong>
+                            <p>
+                                Only information necessary for
+                                the safety feature should be shared.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="extra-info-card">
+                        <span>🛡️</span>
+                        <div>
+                            <strong>Privacy by design</strong>
+                            <p>
+                                Privacy is considered as part of
+                                the platform design, not added later.
+                            </p>
+                        </div>
+                    </div>
+                `
+            );
+
+        });
+
+    }
+
+
+    /* =====================================================
+       TRUSTED SUPPORT
+    ===================================================== */
+
+    const trustedButton =
+        document.getElementById("trusted-support");
+
+    if (trustedButton) {
+
+        trustedButton.addEventListener("click", function () {
+
+            openSafeCirclePanel(
+                "You're not alone.",
+                "TRUSTED SUPPORT",
+                `
+                    <div class="extra-info-card">
+                        <span>👥</span>
+                        <div>
+                            <strong>Trusted people</strong>
+                            <p>
+                                Identify people you trust and
+                                know who you can turn to for help.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="extra-info-card">
+                        <span>💬</span>
+                        <div>
+                            <strong>Ask for support</strong>
+                            <p>
+                                SafeCircle can help you think
+                                through who to contact when
+                                you need support.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="extra-info-card">
+                        <span>🫂</span>
+                        <div>
+                            <strong>You don't have to handle everything alone</strong>
+                            <p>
+                                Reaching out to a trusted adult,
+                                friend, teacher or family member
+                                can be an important safety step.
+                            </p>
+                        </div>
+                    </div>
+                `
+            );
+
+        });
+
+    }
+
+
+    /* =====================================================
+       SAFETY CIRCLE
+    ===================================================== */
+
+    const safetyCircleButton =
+        document.getElementById("safety-circle");
+
+    if (safetyCircleButton) {
+
+        safetyCircleButton.addEventListener("click", function () {
+
+            openSafeCirclePanel(
+                "Your people matter.",
+                "SAFETY CIRCLE",
+                `
+                    <div class="circle-status">
+                        <div class="circle-status-icon">
+                            +
+                        </div>
+
+                        <strong>
+                            Your Safety Circle is ready to build.
+                        </strong>
+
+                        <p>
+                            Add trusted people who you would
+                            want to contact or involve when
+                            you need support.
+                        </p>
+                    </div>
+
+                    <button
+                        class="circle-add-button"
+                        id="add-trusted-person"
+                    >
+                        + Add Trusted Person
+                    </button>
+
+                    <div
+                        id="trusted-person-form"
+                        class="trusted-person-form"
+                        style="display:none;"
+                    >
+
+                        <label>
+                            Name
+                        </label>
+
+                        <input
+                            id="trusted-name"
+                            type="text"
+                            placeholder="Example: Mom"
+                        >
+
+                        <label>
+                            Relationship
+                        </label>
+
+                        <input
+                            id="trusted-relation"
+                            type="text"
+                            placeholder="Example: Parent"
+                        >
+
+                        <button
+                            class="circle-save-button"
+                            id="save-trusted-person"
+                        >
+                            Save Person
+                        </button>
+
+                    </div>
+
+                    <div class="circle-note">
+                        🛡️ Prototype mode — no real message
+                        or notification will be sent.
+                    </div>
+                `
+            );
+
+
+            const addButton =
+                document.getElementById("add-trusted-person");
+
+            const form =
+                document.getElementById("trusted-person-form");
+
+            const saveButton =
+                document.getElementById("save-trusted-person");
+
+
+            if (addButton) {
+
+                addButton.addEventListener(
+                    "click",
+                    function () {
+
+                        form.style.display = "block";
+
+                        addButton.style.display = "none";
+
+                    }
+                );
+
+            }
+
+
+            if (saveButton) {
+
+                saveButton.addEventListener(
+                    "click",
+                    function () {
+
+                        const name =
+                            document
+                                .getElementById("trusted-name")
+                                .value
+                                .trim();
+
+                        const relation =
+                            document
+                                .getElementById("trusted-relation")
+                                .value
+                                .trim();
+
+
+                        if (!name || !relation) {
+
+                            alert(
+                                "Please enter both the name and relationship."
+                            );
+
+                            return;
+
+                        }
+
+
+                        form.innerHTML = `
+
+                            <div class="saved-person">
+
+                                <div class="saved-person-icon">
+                                    ✓
+                                </div>
+
+                                <div>
+
+                                    <strong>
+                                        ${name}
+                                    </strong>
+
+                                    <span>
+                                        ${relation}
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                            <p class="saved-message">
+                                Added to your prototype Safety Circle.
+                            </p>
+
+                        `;
+
+                    }
+                );
+
+            }
+
+        });
+
+    }
+
+
+    /* =====================================================
+       EXTRA PANEL STYLES
+    ===================================================== */
+
+    const style =
+        document.createElement("style");
+
+    style.textContent = `
+
+        #extra-safety-panel {
+            position: fixed;
+            inset: 0;
+            z-index: 100000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .extra-panel-backdrop {
+            position: absolute;
+            inset: 0;
+            background: rgba(0,0,0,0.82);
+            backdrop-filter: blur(12px);
+        }
+
+        .extra-panel {
+            position: relative;
+            z-index: 2;
+            width: min(540px, 100%);
+            max-height: 88vh;
+            overflow-y: auto;
+            padding: 32px;
+            border-radius: 24px;
+            background: #12090c;
+            border: 1px solid rgba(220,40,70,0.35);
+            box-shadow: 0 30px 100px rgba(0,0,0,0.7);
+            color: white;
+        }
+
+        .extra-panel-close {
+            position: absolute;
+            top: 12px;
+            right: 18px;
+            border: none;
+            background: none;
+            color: #aaa;
+            font-size: 30px;
+            cursor: pointer;
+        }
+
+        .extra-panel-label {
+            color: #ef3656;
+            font-size: 11px;
+            font-weight: 900;
+            letter-spacing: 2px;
+        }
+
+        .extra-panel h2 {
+            margin: 10px 0 22px;
+            font-size: 32px;
+        }
+
+        .extra-info-card {
+            display: flex;
+            gap: 15px;
+            padding: 17px;
+            margin-bottom: 11px;
+            border-radius: 14px;
+            background: rgba(255,255,255,0.035);
+            border: 1px solid rgba(255,255,255,0.07);
+        }
+
+        .extra-info-card > span {
+            font-size: 25px;
+        }
+
+        .extra-info-card strong {
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .extra-info-card p {
+            margin: 0;
+            color: #888;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+
+        .extra-panel-done,
+        .circle-add-button,
+        .circle-save-button {
+            width: 100%;
+            margin-top: 18px;
+            padding: 14px;
+            border: none;
+            border-radius: 11px;
+            background: #c91f3d;
+            color: white;
+            font-weight: 800;
+            cursor: pointer;
+        }
+
+        .circle-status {
+            padding: 20px;
+            border-radius: 15px;
+            background: rgba(255,255,255,0.035);
+            border: 1px solid rgba(255,255,255,0.07);
+        }
+
+        .circle-status-icon {
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: rgba(201,31,61,0.18);
+            color: #ef3656;
+            font-size: 25px;
+            margin-bottom: 13px;
+        }
+
+        .circle-status p {
+            color: #888;
+            font-size: 13px;
+            line-height: 1.5;
+            margin-top: 7px;
+        }
+
+        .trusted-person-form {
+            margin-top: 18px;
+        }
+
+        .trusted-person-form label {
+            display: block;
+            margin: 13px 0 6px;
+            color: #bbb;
+            font-size: 13px;
+        }
+
+        .trusted-person-form input {
+            width: 100%;
+            padding: 13px;
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.1);
+            background: #0a0708;
+            color: white;
+            outline: none;
+        }
+
+        .circle-note {
+            margin-top: 18px;
+            padding: 13px;
+            border-radius: 11px;
+            background: rgba(255,255,255,0.035);
+            color: #888;
+            font-size: 12px;
+        }
+
+        .saved-person {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 16px;
+            border-radius: 13px;
+            background: rgba(255,255,255,0.04);
+        }
+
+        .saved-person-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #218653;
+            font-weight: bold;
+        }
+
+        .saved-person strong,
+        .saved-person span {
+            display: block;
+        }
+
+        .saved-person span {
+            color: #888;
+            font-size: 12px;
+            margin-top: 3px;
+        }
+
+        .saved-message {
+            color: #888;
+            font-size: 12px;
+            margin-top: 12px;
+        }
+
+    `;
+
+    document.head.appendChild(style);
+
+});
+</script>
+
+</body>
+
+</html>
